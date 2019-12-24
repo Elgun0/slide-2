@@ -1,0 +1,208 @@
+body{
+    background: url(../photo/bg_img01.jpg);
+    background-size: cover;
+}
+#body-wrapper{
+width: 60%;
+margin: auto;
+}
+#revision{
+    .my-cont{
+        background: #fff;
+        a{
+            color: #000;
+            font-size: 40px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 0 40px;
+            span{
+                color: gold;
+            }
+        }
+        ul{
+            padding: 20px 20px;
+            li{
+                padding: 0 10px;
+                color: gray;
+                transition: .1s;
+                &:hover{
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+// Revision end
+#hello{
+    .my-hello{
+        background-color: gold;
+        .my-item{
+            margin: auto;
+            text-align: center;
+            padding: 100px 0;
+            h1{
+                color: black;
+                font-size: 95px;
+                font-weight: bold;
+            }
+            p{
+                color: #fff;
+                font-size: 42px;
+            }
+        }
+    }
+}
+// hello end
+#design{
+    .my-design{
+        background: #fff;
+        padding: 40px 20px;
+        .col-item{
+            .icon-border{
+                border-radius: 50%;
+                color: #fff;
+                background: #000;
+                padding: 10px 12px;
+            }
+            p{
+                color: grey;
+                padding: 10px 0;
+            }
+        }
+    }
+}
+// Design end
+#carousel{
+    .mainSlide{
+        position: relative;
+        overflow: hidden;
+    }
+    .my-car{
+        background: #fff;
+        img{
+            position: relative;
+        }
+        .project{
+            position: relative;
+            width: 280px;
+        
+        .img-box{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: gold;
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+            opacity: 0;
+            transition: .3s;
+            &:hover{
+                opacity: .9;
+            }
+    }
+}
+}
+}
+// Carousel end
+#custom{
+    .my-custom{
+        background: #fff;
+        padding: 80px 20px;
+        img{
+            border: 1px solid #ddd;
+        }
+    }
+}
+// Custom end
+#latest{
+    .my-lat{
+        padding: 80px 40px;
+        background: #333;
+        color: #fff;
+        .div-1{
+            a{
+                font-size: 35px;
+                color: #fff;
+                span{
+                    color: gold;
+                }
+                text-decoration: none;
+                font-weight: 700;
+            }
+            p{
+                color: gray;
+                font-size: 14px;
+                padding-top: 20px;
+            }
+        }
+        .div-2{
+            color: gray;
+        }
+        .div-3{
+            h5{
+                color: gray;
+                padding-bottom: 10px;
+            }
+            h6{
+                color: rgb(190, 187, 187);
+                transition: .3s;
+                &:hover{
+                    color: gold;
+                }
+            }
+            p{
+                font-size: 12px;
+                color: gray;
+            }
+        }
+        .div-4{
+            h5{
+                color: gray;
+            }
+            .imgs{
+                img{
+                    padding: 10px 0;
+
+                }
+            }
+        }
+    }
+}
+        // Latest end
+#last{
+    
+    .my-last{
+        background: #2b2b2b;
+        .left{
+            ul{
+                font-size: 14px;
+                .birinci{
+                    color: rgb(78, 78, 78);
+                }
+                li{
+                    padding: 0 15px;
+                    color: gray;
+                    transition: .3s;
+                    cursor: pointer;
+                    &:hover{
+                        color: gold;
+                    }
+                }
+
+            }
+        }
+        .right{
+            i{
+                padding: 10px 10px;
+                color: gray;
+                transition: .3s;
+                &:hover{
+                    color: gold;
+                }
+            }
+        }
+    }
+}
+

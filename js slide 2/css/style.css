@@ -1,0 +1,215 @@
+body {
+  background: url(../photo/bg_img01.jpg);
+  background-size: cover;
+}
+
+#body-wrapper {
+  width: 60%;
+  margin: auto;
+}
+
+#revision .my-cont {
+  background: #fff;
+}
+
+#revision .my-cont a {
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 40px;
+}
+
+#revision .my-cont a span {
+  color: gold;
+}
+
+#revision .my-cont ul {
+  padding: 20px 20px;
+}
+
+#revision .my-cont ul li {
+  padding: 0 10px;
+  color: gray;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+#revision .my-cont ul li:hover {
+  color: #000;
+}
+
+#hello .my-hello {
+  background-color: gold;
+}
+
+#hello .my-hello .my-item {
+  margin: auto;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#hello .my-hello .my-item h1 {
+  color: black;
+  font-size: 95px;
+  font-weight: bold;
+}
+
+#hello .my-hello .my-item p {
+  color: #fff;
+  font-size: 42px;
+}
+
+#design .my-design {
+  background: #fff;
+  padding: 40px 20px;
+}
+
+#design .my-design .col-item .icon-border {
+  border-radius: 50%;
+  color: #fff;
+  background: #000;
+  padding: 10px 12px;
+}
+
+#design .my-design .col-item p {
+  color: grey;
+  padding: 10px 0;
+}
+
+#carousel .mainSlide {
+  position: relative;
+  overflow: hidden;
+}
+
+#carousel .my-car {
+  background: #fff;
+}
+
+#carousel .my-car img {
+  position: relative;
+}
+
+#carousel .my-car .project {
+  position: relative;
+  width: 280px;
+}
+
+#carousel .my-car .project .img-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: gold;
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+  opacity: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#carousel .my-car .project .img-box:hover {
+  opacity: .9;
+}
+
+#custom .my-custom {
+  background: #fff;
+  padding: 80px 20px;
+}
+
+#custom .my-custom img {
+  border: 1px solid #ddd;
+}
+
+#latest .my-lat {
+  padding: 80px 40px;
+  background: #333;
+  color: #fff;
+}
+
+#latest .my-lat .div-1 a {
+  font-size: 35px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#latest .my-lat .div-1 a span {
+  color: gold;
+}
+
+#latest .my-lat .div-1 p {
+  color: gray;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+#latest .my-lat .div-2 {
+  color: gray;
+}
+
+#latest .my-lat .div-3 h5 {
+  color: gray;
+  padding-bottom: 10px;
+}
+
+#latest .my-lat .div-3 h6 {
+  color: #bebbbb;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#latest .my-lat .div-3 h6:hover {
+  color: gold;
+}
+
+#latest .my-lat .div-3 p {
+  font-size: 12px;
+  color: gray;
+}
+
+#latest .my-lat .div-4 h5 {
+  color: gray;
+}
+
+#latest .my-lat .div-4 .imgs img {
+  padding: 10px 0;
+}
+
+#last .my-last {
+  background: #2b2b2b;
+}
+
+#last .my-last .left ul {
+  font-size: 14px;
+}
+
+#last .my-last .left ul .birinci {
+  color: #4e4e4e;
+}
+
+#last .my-last .left ul li {
+  padding: 0 15px;
+  color: gray;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+}
+
+#last .my-last .left ul li:hover {
+  color: gold;
+}
+
+#last .my-last .right i {
+  padding: 10px 10px;
+  color: gray;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#last .my-last .right i:hover {
+  color: gold;
+}
+/*# sourceMappingURL=style.css.map */
